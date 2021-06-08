@@ -3,14 +3,98 @@
   <head>
     <meta charset="utf-8">
     <title>Плеск Общество</title>
-    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/reset.css">
   </head>
 
   <style media="screen">
+
+
     * {box-sizing: border-box;}
-  </style>
 
-  <body>
 
-  </body>
-</html>
+    h1 {
+      font-family: "Arimo";
+      font-size: 44px;
+      line-height: 54px;
+      color: white;
+    }
+    p {
+      font-family: "Arimo";
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      color: white;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .home {
+      width: 1440px;
+      height: 1164px;
+      background: black;
+      position: relative;
+    }
+
+    .left_menu {
+      width: 160px;
+      height: 900px;
+      background-image: url("stylesheets/images/gradient_projects.svg");
+      position: fixed;
+    }
+    .menu_txt {
+      position: absolute;
+      width: 94px;
+      /* background: blue; */
+      margin-left: 32px;
+      margin-top: 113px;
+    }
+    .logo_menu {
+      width: 95px;
+      height: 52px;
+      position: absolute;
+      top: 32px;
+      left: 32px;
+    }
+    .clicked {
+      color: white;
+    }
+    .static {
+      color: rgba(255, 255, 255, 0.4);
+    }
+    .gradient_projects {
+      width: 160px;
+      height: 900px
+      left: 0; bottom: 0;
+
+
+    }
+
+    </style>
+
+    <body>
+      <div class="home">
+          <div class="left_menu">
+            <div class="menu_txt">
+              <p class="clicked">плакаты</p>
+              <p class="static">формы</p>
+              <p class="static">книга</p>
+              <p class="static">строения</p>
+              <p class="static">веб</p>
+            </div>
+            <div class="logo_menu">
+              <img src="stylesheets/images/logo_menuleft.svg">
+            </div>
+          </div>
+          <div class="footer">
+            <div class="footer_txt">
+              <ul class="horisontal_p">
+                <li class="a_txt">Плеск общество</li>
+                <li class="b_txt">шд ниу вшэ</li>
+                <li class="c_txt">simonzlo</li>
+              </ul>
+            </div>
+            <div class="footer_logo">
+              <img src="stylesheets/images/footer_logo.svg">
+            </div>
+          </div>
+        </div>
