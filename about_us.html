@@ -8,15 +8,14 @@
 
   <style media="screen">
 
-
     * {box-sizing: border-box;}
-
 
     h1 {
       font-family: "Arimo";
       font-size: 44px;
       line-height: 54px;
       color: white;
+      padding-bottom: 44px;
     }
     p {
       font-family: "Arimo";
@@ -28,140 +27,46 @@
       margin-bottom: 12px;
     }
 
-
-    .home {
-      width: 1440px;
-      height: 1164px;
-      background: black;
+    body {
       position: relative;
     }
 
-
     .left_menu {
-      width: 160px;
-      height: 900px;
-      background-image: url("stylesheets/images/gradient_about_us.svg");
+      top: 0;
+      left: 0;
+      bottom: 0;
       position: fixed;
-    }
-    .menu_txt {
-      position: absolute;
-      width: 94px;
-      /* background: blue; */
-      margin-left: 32px;
-      margin-top: 113px;
-    }
-    .logo_menu {
-      width: 95px;
-      height: 52px;
-      position: absolute;
-      top: 32px;
-      left: 32px;
-    }
-    .clicked {
-      color: white;
-    }
-    .static {
-      color: rgba(255, 255, 255, 0.4);
-    }
-    /* .gradient_about_us {
       width: 160px;
-      height: 900px
-      left: 0; bottom: 0;
-    } */
-
-
-    .text_aboutus {
-      position: absolute;
-      width: 1088px;
-      /* background: blue; */
-      margin-left: 240px;
-      margin-top: 86px;
+      background: red;
+      display: inline-block;
+      z-index: 10;
     }
-    .text_aboutus h1 {
-      margin-bottom: 44px;
-      padding-left: 0px;
-    }
-
 
     .footer {
       position: absolute;
-      width: 1440px;
       height: 48px;
-      left: 0; bottom: 0;
+      background: blue;
+      display: block;
+      left: 0;
+      right: 0;
     }
-    .horisontal_p {
-      font-family: "Arimo";
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 20px;
-      color: white;
-      text-transform: uppercase;
-      margin-bottom: 12px;
+
+    .aboutus_txt {
+      height: 810px;
+      margin: 86px 112px 268px 240px;
+      background: blue;
     }
-    ul.horisontal_p {
-      margin: 0; /* Обнуляем значение отступов */
-      padding: 4px; /* Значение полей */
-    }
-    ul.horisontal_p li {
-      display: inline; /* Отображать как строчный элемент */
-      margin-right: 5px; /* Отступ слева */
-    }
-    .a_txt {
-      position: absolute;
-      margin-left: 240px;
-      margin-top: 1px;
-    }
-    .b_txt {
-      position: absolute;
-      margin-left: 412px;
-      margin-top: 1px;
-    }
-    .c_txt {
-      position: absolute;
-      margin-left: 543px;
-      margin-top: 1px;
-    }
-    .footer_logo {
-      width: 42.94;
-      height: 23.29;
-      margin-left: 1317px;
-      margin-top: 4px;
-    }
+
 
 
   </style>
 
   <body>
-    <div class="home">
-      <div class="left_menu">
-        <div class="menu_txt">
-          <p class="clicked">о нас</p>
-          <p class="static">манифест</p>
-          <p class="static">что делаем</p>
-          <p class="static">контакты</p>
-        </div>
-        <div class="logo_menu">
-          <img src="stylesheets/images/logo_menuleft.svg">
-        </div>
-      </div>
-      <div class="text_aboutus">
-          <h1>Творческое общество Плеск выступает с позицией отказа от всего конкретного и понятного в пользу тайному и неизведанному. Наш источник силы –– природа. В природе многое практически невозможно увидеть, но можно услышать, и даже почувствовать.
-            </h1>
-          <h1>Никогда не знаешь, что может стать причиной плеска в полуночном пруду –– будь то хвост рыбы блеснувший на водной глади или же иного, неизведанного нами существа или явления природы. Мы ничего не знаем, поэтому ищем <br> и фантазируем. Язык природы напоминает язык человеческих чувств и это нить, которая нас объединяет. Плеск как процес творчества, поиск нового звучания, новой формы наощупь, в темноте.
-          </h1>
-      </div>
-      <div class="footer">
-        <div class="footer_txt">
-          <ul class="horisontal_p">
-            <li class="a_txt">Плеск общество</li>
-            <li class="b_txt">шд ниу вшэ</li>
-            <li class="c_txt">simonzlo</li>
-          </ul>
-        </div>
-        <div class="footer_logo">
-          <img src="stylesheets/images/footer_logo.svg">
-        </div>
-      </div>
+    <div class="left_menu"></div>
+    <div class="aboutus_txt">
+      <h1>Творческое общество Плеск выступает с позицией отказа от всего конкретного и понятного в пользу тайному и неизведанному. Наш источник силы –– природа. В природе многое практически невозможно увидеть, но можно услышать, и даже почувствовать.</h1>
+      <h1>Никогда не знаешь, что может стать причиной плеска в полуночном пруду –– будь то хвост рыбы блеснувший на водной глади или же иного, неизведанного нами существа или явления природы. Мы ничего не знаем, поэтому ищем<br>и фантазируем. Язык природы напоминает язык человеческих чувств и это нить, которая нас объединяет. Плеск как процес творчества, поиск нового звучания, новой формы наощупь, в темноте.</h1>
+
     </div>
+    <div class="footer"></div>
   </body>
-</html>
