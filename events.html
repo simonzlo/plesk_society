@@ -3,14 +3,168 @@
   <head>
     <meta charset="utf-8">
     <title>Плеск Общество</title>
-    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/reset.css">
   </head>
 
   <style media="screen">
+
     * {box-sizing: border-box;}
-  </style>
 
-  <body>
+    h1 {
+      font-family: "Arimo";
+      font-size: 44px;
+      line-height: 54px;
+      color: white;
+    }
+    p {
+      font-family: "Arimo";
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      color: white;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
 
-  </body>
-</html>
+    .left_menu {
+      top: 0;
+      left: 0;
+      bottom: 0;
+      position: fixed;
+      width: 160px;
+      background: red;
+      display: inline-block;
+      z-index: 10;
+    }
+
+    .f_txt_1 {
+      display: inline-block;
+      width: 136px;
+      height: 20px;
+      background: green;
+      margin-top: 1px;
+      margin-left: 240px;
+    }
+    .f_txt_2 {
+      display: inline-block;
+      width: 95px;
+      height: 20px;
+      background: green;
+      margin-top: 1px;
+      margin-left: 36px;
+    }
+    .f_txt_3 {
+      display: inline-block;
+      width: 74px;
+      height: 20px;
+      background: green;
+      margin-top: 1px;
+      margin-left: 36px;
+    }
+
+    .footer {
+      position: absolute;
+      height: 48px;
+      background: blue;
+      display: block;
+      left: 0;
+      right: 0;
+    }
+    .logo_footer {
+      width: 43px;
+      height: 24px;
+      position: absolute;
+      top: 4px;
+      right: 80px;
+      background: url(images/logo_footer.svg) no-repeat;
+      background-size: 100% auto;
+    }
+
+    body {
+      position: relative;
+      background: black;
+    }
+
+    .event_one {
+      height: 307px;
+      margin: 48px 112px 77px 240px;
+      background: blue;
+    }
+
+    .date {
+      height: 20px;
+      background: red;
+    }
+
+    .e_txt_1 {
+      width: 81px;
+      display: inline-block;
+      margin-right: 28px;
+    }
+    .e_txt_2 {
+      display: inline-block;
+      width: 228px;
+      margin-right: 598px;
+    }
+    .e_txt_3 {
+      display: inline-block;
+      width: 61px;
+      margin-right: 32px;
+    }
+    .e_txt_4 {
+      display: inline-block;
+      margin-right: 12px;
+      width: 36px;
+      margin-right: 12px;
+
+
+    }
+
+
+
+
+
+
+
+    </style>
+
+
+    <body>
+
+      <div class="event_one">
+        <div class="date">
+          <div class="e_txt_1">
+            <p>Выставка</p>
+          </div>
+          <div class="e_txt_2">
+            <p>«Я плеск и я вас всех съем»</p>
+          </div>
+          <div class="e_txt_3">
+            <p>6 марта</p>
+          </div>
+          <div class="e_txt_4">
+            <p>13:20</p>
+          </div>
+        </div>
+        <div class="event_txt">
+          <h1>Доводя свое выступление до максимума, Плеск знакомит аудиторию с так называемым состоянием гипноза, показывая абстрактные изображения бездомной жизни, состояния войны и ненависти <br>к самому себе... Подробнее
+          </h1>
+        </div>
+      </div>
+
+
+
+      <div class="footer">
+        <div class="f_txt_1">
+          <p>плеск общество</p>
+        </div>
+        <div class="f_txt_2">
+          <p>шд ниу вшэ</p>
+        </div>
+        <div class="f_txt_3">
+          <p>simonzlo</p>
+        </div>
+        <div class="logo_footer">
+        </div>
+      <div class="left_menu"></div>
+    </body>
